@@ -1,0 +1,24 @@
+# Environment variables (CRITICAL: keeps API keys secret)
+.env
+*.env
+
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Log files & execution outputs
+*.log
+
+# IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
